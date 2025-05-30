@@ -6,12 +6,64 @@
     <title>Document</title>
 </head>
 <body>
-    <form name="singup" method="get">A tag form é um espaço especial para o formulario<br/>
+        <form name="singup" method="get">A tag form é um espaço especial para o formulario<br/>
         Email:<br/> <input type="email" name="usuario"/><br/>
         Senha: <br/><input type="password"  name="password"><br/><br/>
        <a href=""><button type="submit">Entrar</button></a>
     </form>
-Formulario Basico
+    <h1>Tipos de input:</h1><br/>
+    <form action="#" method="post" enctype="multipart/form-data">
+    <p><label>Botão: <input type="button" value="Clique aqui" onclick="alert('Botão clicado!')"></label></p>
+    
+    <p><label>Checkbox: <input type="checkbox" name="aceita" value="sim"> Aceito os termos</label></p>
+    
+    <p><label>Cor favorita: <input type="color" name="cor"></label></p>
+    
+    <p><label>Data: <input type="date" name="data"></label></p>
+    
+    <p><label>Data e hora: <input type="datetime-local" name="datahora"></label></p>
+    
+    <p><label>Email: <input type="email" name="email" required></label></p>
+    
+    <p><label>Arquivo: <input type="file" name="arquivo"></label></p>
+    
+    <input type="hidden" name="usuario_id" value="12345">
+    
+    <p><label>Imagem (botão): <input type="image" src="https://via.placeholder.com/50" alt="Enviar imagem"></label></p>
+    
+    <p><label>Mês: <input type="month" name="mes"></label></p>
+    
+    <p><label>Número: <input type="number" name="numero" min="0" max="100"></label></p>
+    
+    <p><label>Senha: <input type="password" name="senha"></label></p>
+    
+    <p>
+      <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+      <label><input type="radio" name="genero" value="feminino"> Feminino</label>
+    </p>
+    
+    <p><label>Range (0 a 100): <input type="range" name="nivel" min="0" max="100"></label></p>
+    
+    <p><input type="reset" value="Limpar formulário"></p>
+    
+    <p><label>Buscar: <input type="search" name="busca" placeholder="Digite algo"></label></p>
+    
+    <p><input type="submit" value="Enviar formulário"></p>
+    
+    <p><label>Telefone: <input type="tel" name="telefone" placeholder="(00) 00000-0000"></label></p>
+    
+    <p><label>Texto: <input type="text" name="nome" placeholder="Seu nome"></label></p>
+    
+    <p><label>Hora: <input type="time" name="hora"></label></p>
+    
+    <p><label>Site: <input type="url" name="site" placeholder="https://exemplo.com"></label></p>
+    
+    <p><label>Semana: <input type="week" name="semana"></label></p>
+<br><input type="number" min=0 max=100 step=10 />
+</body>
+</html>
+
+
     <!--🔹 GET
 Envia os dados pela URL.
 
@@ -61,5 +113,3 @@ quando o usuário clicar em "Enviar".
 
 
 -->
-</body>
-</html>
