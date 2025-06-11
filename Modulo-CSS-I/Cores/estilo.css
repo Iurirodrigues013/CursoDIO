@@ -1,0 +1,26 @@
+
+#pre-definidas{
+    color:  darkmagenta;
+}
+#current-color{
+ color: orange;
+ border: 2px solid currentColor;
+}
+#hex{
+    color: #f00;
+}
+#hex-tranparencia{
+    color: #ff000080;
+}
+#rgb{
+    color: rgb(255,0,50);
+}
+#rgba{
+    color: rgba(255, 0, 0, 0.5);
+}
+#hsl{
+    color: hsl(0, 100%, 50%);
+}
+#hsla{
+    color: hsla(0, 100%, 50%, 0.5);
+}
